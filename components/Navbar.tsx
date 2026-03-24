@@ -22,7 +22,7 @@ function NavItem({title, url}: NavItemProps) {
 export default function Navbar() {
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 flex justify-center px-4 pb-2 md:pb-4 pb-safe backdrop-blur-md bg-white/70 shadow-lg">
-      <nav >
+      <nav>
         <ul className="flex border border-gray-300 rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 backdrop-blur-md">
           <NavItem title={"Home"} url={"/"} />
           <NavItem title={"Projects"} url={"/projects"} />
