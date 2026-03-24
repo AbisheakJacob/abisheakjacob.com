@@ -1,0 +1,78 @@
+
+> abisheakjacob.com@0.1.0 build
+> next build
+
+▲ Next.js 16.2.1 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.5s
+  Running TypeScript ...
+  Finished TypeScript in 3.9s ...
+  Collecting page data using 7 workers ...
+
+Error: Failed to collect configuration for /essays
+    at ignore-listed frames {
+  [cause]: TypeError: Invalid URL
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:5412)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.esmImport [as i] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:281:20)
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:6215)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.commonJsRequire [as r] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:302:12) {
+    code: 'ERR_INVALID_URL',
+    input: 'https://[PLACEHOLDER_WEBSITE].com'
+  }
+}
+Error: Failed to collect configuration for /_not-found
+    at ignore-listed frames {
+  [cause]: TypeError: Invalid URL
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:5412)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.esmImport [as i] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:281:20)
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:6215)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.commonJsRequire [as r] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:302:12) {
+    code: 'ERR_INVALID_URL',
+    input: 'https://[PLACEHOLDER_WEBSITE].com'
+  }
+}
+Error: Failed to collect configuration for /
+    at ignore-listed frames {
+  [cause]: TypeError: Invalid URL
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:5412)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.esmImport [as i] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:281:20)
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:6215)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.commonJsRequire [as r] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:302:12) {
+    code: 'ERR_INVALID_URL',
+    input: 'https://[PLACEHOLDER_WEBSITE].com'
+  }
+}
+Error: Failed to collect configuration for /projects
+    at ignore-listed frames {
+  [cause]: TypeError: Invalid URL
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:5412)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.esmImport [as i] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:281:20)
+      at module evaluation (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[root-of-the-server]__0~vwhf5._.js:5:6215)
+      at instantiateModule (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:853:9)
+      at getOrInstantiateModuleFromParent (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:877:12)
+      at Context.commonJsRequire [as r] (C:\Users\abish\Documents\02 AREAS\GITHUB\abisheakjacob.com\.next\server\chunks\ssr\[turbopack]_runtime.js:302:12) {
+    code: 'ERR_INVALID_URL',
+    input: 'https://[PLACEHOLDER_WEBSITE].com'
+  }
+}
+
+> Build error occurred
+Error: Failed to collect page data for /essays
+    at ignore-listed frames {
+  type: 'Error'
+}
