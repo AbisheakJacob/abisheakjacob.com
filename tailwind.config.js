@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        safe: 'calc(enf(safe-area-insert-bottom) + 0.5rem)',
+      },
+    },
   },
   plugins: [],
 }
